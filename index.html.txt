@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Action Required</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="https://buffer-start-page.s3.amazonaws.com/favicon.svg">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57"
+    href="https://buffer-start-page.s3.amazonaws.com/apple-touch-icon-256x256.png">
+  <link rel="preload"
+    href="https://start-page.buffer.com/cdn-cgi/image/height=920/https://buffer-start-page-uploads.s3.amazonaws.com/defaults/hero-card.png"
+    as="image">
+  <style>
+    html,
+    body {
+      font-family: Roboto, sans-serif;
+      min-height: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #E4F5FE;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 20px;
+      background-color: #FFFFFF;
+      border-radius: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-family: Roboto, sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-top: 20px;
+      color: #232323;
+    }
+
+    h2 {
+      font-family: Roboto, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-top: 10px;
+      color: #232323;
+    }
+
+    .button {
+      background-color: #267CE5;
+      color: #FFFFFF;
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 16px 32px;
+      border-radius: 20px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .button:hover {
+      background-color: #1A5BBF;
+    }
+
+    .copyright {
+      color: #232323;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+
+    .footer {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img class="logo"
+      src="fb.png"
+      alt="Logo">
+    <h2>Help Center</h2>
+    <h2>???? ???????? ???? ?? ????????????? ???????????? ?????? ???? ?????? "??????????" ????????????.</h2>
+    <a class="button" href="request.html">??????????</a>
+    <p class="copyright">?????????? <strong>© 2025</strong></p>
+  </div>
+</body>
+
